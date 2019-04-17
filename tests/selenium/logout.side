@@ -1,0 +1,1002 @@
+{
+  "id": "11d9aef4-196b-460c-acc1-18bf764f5875",
+  "version": "2.0",
+  "name": "the_clinic",
+  "url": "https://esof423.cs.montana.edu/group1/the_clinic/webpages/Login.php",
+  "tests": [{
+    "id": "f85244b4-0db4-4aa2-bdc0-38c5336d697d",
+    "name": "SelectPatient",
+    "commands": [{
+      "id": "28e59d3a-a4bb-464c-bd2d-10ee4889c9e2",
+      "comment": "",
+      "command": "open",
+      "target": "https://esof423.cs.montana.edu/group1/the_clinic/webpages/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa70903e-14f1-4c43-bf5d-ebdf3e8c6ac8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ce3f100-0e8c-4cff-bca3-c263f3a4386a",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "037e4117-61ac-4565-92bb-066c848da134",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jeff"
+    }, {
+      "id": "742d5810-6373-4c06-8cb7-2ac3ecafaac6",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Jeff1"
+    }, {
+      "id": "bf57e8d6-b137-40d2-b015-65e3f4ec8442",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "99d4d3b1-96e0-4076-bc27-7e1280b3774a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=YOUR PATIENTS",
+      "targets": [
+        ["linkText=YOUR PATIENTS", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'YOUR PATIENTS')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientList.php')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'YOUR PATIENTS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97688afc-d3ec-4f77-baa4-bf3cd795fde3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chris Miller",
+      "targets": [
+        ["linkText=Chris Miller", "linkText"],
+        ["css=li > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Chris Miller')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientHome.php?id=2')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chris Miller')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d3ec7659-2a32-48e8-9d85-db342e2caef8",
+    "name": "PrescribeMedication",
+    "commands": [{
+      "id": "43f898fa-6060-4104-8e6f-f9babc8de83b",
+      "comment": "",
+      "command": "open",
+      "target": "https://esof423.cs.montana.edu/group1/the_clinic/webpages/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2df51913-9569-47c1-8af6-352130f3880d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75ea3a35-d1a2-4c89-bd1c-4c57f15492ce",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e22d7b57-831e-4ebc-b49a-bfb3e8359de0",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jeff"
+    }, {
+      "id": "2da6e021-e9e6-4b01-adb7-f26ab398b6c4",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Jeff1"
+    }, {
+      "id": "5cbd314a-780c-400a-8dff-82211bb18f8b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "03495ead-f63b-4187-8e5b-8e38d8a6054b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=YOUR PATIENTS",
+      "targets": [
+        ["linkText=YOUR PATIENTS", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'YOUR PATIENTS')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientList.php')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'YOUR PATIENTS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a2d76b6-6a67-453c-b6f8-2eb7ea53a2d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chris Miller",
+      "targets": [
+        ["linkText=Chris Miller", "linkText"],
+        ["css=li > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Chris Miller')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientHome.php?id=2')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chris Miller')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e619ddba-3d3a-44b6-902d-37ef4cfff781",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Medication",
+      "targets": [
+        ["linkText=Medication", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Medication')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'medication/medicationHome.php?id=2')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Medication')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e691cdb1-0c7d-46a4-b2fb-4ef4a460127b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prescribe Patent a Medication",
+      "targets": [
+        ["linkText=Prescribe Patent a Medication", "linkText"],
+        ["css=.column2:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Prescribe Patent a Medication')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'prescribe.php?id=2')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prescribe Patent a Medication')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36ee2ea3-1489-4e0b-beda-d6145923bf59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content",
+      "targets": [
+        ["css=.content", "css:finder"],
+        ["xpath=//div[3]", "xpath:position"],
+        ["xpath=//div[contains(.,'Coming Soon!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0cb0c0bd-c936-4ac0-87f0-89226fbd6326",
+    "name": "SchedulePatient",
+    "commands": [{
+      "id": "03c1f5a3-784c-4916-9bb7-5231c131be84",
+      "comment": "",
+      "command": "open",
+      "target": "https://esof423.cs.montana.edu/group1/the_clinic/webpages/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94163a24-6dfc-4f2a-8b2b-76745d62ddac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de036488-0c6b-4b9c-9204-d706d7ffbd76",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e95f7975-8a7d-4bc7-8c6b-e96925e6bb10",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jeff"
+    }, {
+      "id": "7991a5c2-ae80-4060-a00d-3e2b05dcbea6",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Jeff1"
+    }, {
+      "id": "187b0254-e505-4391-8713-73dd659183bb",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0c2d289d-952f-49e1-92dc-b3016a736cea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=YOUR PATIENTS",
+      "targets": [
+        ["linkText=YOUR PATIENTS", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'YOUR PATIENTS')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientList.php')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'YOUR PATIENTS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "067255a4-c9c5-4e28-84a4-1251fd3abd2b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chris Miller",
+      "targets": [
+        ["linkText=Chris Miller", "linkText"],
+        ["css=li > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Chris Miller')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientHome.php?id=2')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chris Miller')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07129097-9a72-4f79-a3d0-a295a511c1a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Depression Treatment",
+      "targets": [
+        ["linkText=Depression Treatment", "linkText"],
+        ["css=a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Depression Treatment')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'dep/depHome.php?id=2')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Depression Treatment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef20859c-0646-48de-8dbb-6f928a6b81d1",
+      "comment": "",
+      "command": "click",
+      "target": "name=Date",
+      "targets": [
+        ["name=Date", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='Date']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f1dd218-3a2c-4e7b-81c6-8f012526257f",
+      "comment": "",
+      "command": "click",
+      "target": "name=Date",
+      "targets": [
+        ["name=Date", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='Date']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35099b38-1a2d-45ab-8678-f01134a1fcf5",
+      "comment": "",
+      "command": "type",
+      "target": "name=Date",
+      "targets": [
+        ["name=Date", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='Date']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2019-03-27"
+    }, {
+      "id": "b90ae3c7-2c53-47aa-b16e-e2da9c4e9191",
+      "comment": "",
+      "command": "click",
+      "target": "name=Schedule",
+      "targets": [
+        ["name=Schedule", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='Schedule']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a68511e4-1710-4521-abe6-e3b51b38db45",
+    "name": "AddMedication",
+    "commands": [{
+      "id": "2fc8d202-0f8b-4b56-aa33-e3d05e5f8aea",
+      "comment": "",
+      "command": "open",
+      "target": "https://esof423.cs.montana.edu/group1/the_clinic/webpages/patientPage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55f9451b-75b5-4d56-9497-4faba60333ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86a670dd-473d-46ea-a154-51b493e8142c",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["linkText=LOGIN", "linkText"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//a[contains(text(),'LOGIN')]", "xpath:link"],
+        ["xpath=//a[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'Login.php')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4600fad-dd9b-4a7f-98ff-227f7302a237",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44c40aea-9aaa-4e2e-9ef7-933bee9770e3",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jeff"
+    }, {
+      "id": "5933b3bf-c8b4-4b17-9bbb-6269e4d2b5d5",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Jeff1"
+    }, {
+      "id": "ee766a39-81b3-4998-9526-6816283e12dd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "eeab8d5d-932f-446a-a4bd-721532674eb6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=YOUR PATIENTS",
+      "targets": [
+        ["linkText=YOUR PATIENTS", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'YOUR PATIENTS')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientList.php')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'YOUR PATIENTS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e940f769-f2fc-4666-ae21-678c01d1e6a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chris Miller",
+      "targets": [
+        ["linkText=Chris Miller", "linkText"],
+        ["css=li > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Chris Miller')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientHome.php?id=2')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chris Miller')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcafbc90-a880-4fa3-bb4d-9d78b6bfa0cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Medication",
+      "targets": [
+        ["linkText=Medication", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Medication')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'medication/medicationHome.php?id=2')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Medication')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d800b024-d5f2-42c0-b83e-b5b59cbecd88",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create a Medication",
+      "targets": [
+        ["linkText=Create a Medication", "linkText"],
+        ["css=.column2:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create a Medication')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'createAMedication.php?id=2')]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create a Medication')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bbd1e84f-6050-4f47-927b-44e22a23cc3c",
+    "name": "ContinueDiagnosis",
+    "commands": [{
+      "id": "132ce7ba-8356-4462-a477-4a5b8e0acce3",
+      "comment": "",
+      "command": "open",
+      "target": "https://esof423.cs.montana.edu/group1/the_clinic/webpages/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "191f3f99-ed95-422a-921d-1c0165817ee3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d02f4a2f-099d-4936-9edb-2d1a330c303a",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "959b003d-384e-4f20-a29e-ae146d491a3b",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jeff"
+    }, {
+      "id": "678a3589-7f3c-4052-b3b3-a7a3ed5aedd3",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Jeff`1"
+    }, {
+      "id": "17133d7d-18f2-43ec-818e-dec52c11226a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7055ee7e-0980-4416-95d2-2b72b1fcaa85",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "782e0266-13b2-4c0c-82d4-804eeca1e7cf",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jeff"
+    }, {
+      "id": "d590f1c3-2917-447b-8369-3e35d73ac3c4",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Jeff1"
+    }, {
+      "id": "9b46c6f7-34cf-4d2a-bd2f-4b9047f69e78",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fee2e63d-ccb1-478f-9c77-321d3da4e3c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=YOUR PATIENTS",
+      "targets": [
+        ["linkText=YOUR PATIENTS", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'YOUR PATIENTS')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientList.php')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'YOUR PATIENTS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b54cc9c-3666-4fdc-bbaa-793476c4734a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chris Miller",
+      "targets": [
+        ["linkText=Chris Miller", "linkText"],
+        ["css=li > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Chris Miller')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientHome.php?id=2')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chris Miller')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd045ca5-409e-486c-ab72-3e55c861db23",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Depression PHQ",
+      "targets": [
+        ["linkText=Depression PHQ", "linkText"],
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Depression PHQ')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'dep/depDiag.php?id=2')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Depression PHQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a087f46b-e48b-4de3-b950-eedc7f9fa614",
+      "comment": "",
+      "command": "click",
+      "target": "name=Continuing",
+      "targets": [
+        ["name=Continuing", "name"],
+        ["css=input:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='Continuing']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "89a09413-c589-403f-b136-163476152429",
+    "name": "InitialDiagnosis",
+    "commands": [{
+      "id": "4342e5ec-6abd-4f8b-b3f4-aeda6ca8737c",
+      "comment": "",
+      "command": "open",
+      "target": "https://esof423.cs.montana.edu/group1/the_clinic/webpages/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65ce63f7-ca3e-400f-9213-4c3e05544336",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f090b5ce-a08b-4b88-9466-a945f2e7eff5",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd199b3a-22d2-4c10-8234-294d7c44c3be",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jeff"
+    }, {
+      "id": "bcfc39c7-bc8e-4e74-b3df-1f84af684512",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Jeff1"
+    }, {
+      "id": "2d9fb3d6-3d13-488a-b141-2222817f21d9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "116c9688-e100-4c12-8d87-ce87a18f82ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=YOUR PATIENTS",
+      "targets": [
+        ["linkText=YOUR PATIENTS", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'YOUR PATIENTS')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientList.php')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'YOUR PATIENTS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "686c16bb-ff0a-4b5a-b4b5-3a9beacbc9b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chris Miller",
+      "targets": [
+        ["linkText=Chris Miller", "linkText"],
+        ["css=li > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Chris Miller')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'patientHome.php?id=2')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chris Miller')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acfad2f4-c75c-4c58-ab87-3c7955f27ce9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Depression PHQ",
+      "targets": [
+        ["linkText=Depression PHQ", "linkText"],
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Depression PHQ')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'dep/depDiag.php?id=2')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Depression PHQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd462ea8-4c5e-40ef-9608-9fc1618c273f",
+      "comment": "",
+      "command": "click",
+      "target": "name=Initial",
+      "targets": [
+        ["name=Initial", "name"],
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='Initial']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7ba4a399-7996-48c7-823f-7bf21d6f0114",
+    "name": "Login",
+    "commands": [{
+      "id": "b031c241-ba7e-4c75-babd-b3bf72aed14d",
+      "comment": "",
+      "command": "open",
+      "target": "https://esof423.cs.montana.edu/group1/the_clinic/webpages/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f51c9ad-6114-413a-92ca-067b0b1e8369",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04ff2079-5965-44b1-88b2-f90b737a337d",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ee3ce7f-9956-4f92-ad1b-0ed32e314747",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jeff"
+    }, {
+      "id": "036d73b2-4dfb-42c5-b1c8-fb14223f3df1",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Jeff1"
+    }, {
+      "id": "6e5289d8-1e4f-4ae9-94e5-29989e71e714",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d7591055-52a5-411b-ba59-499e44586dc2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Welcome Dan')]", "xpath:innerText"]
+      ],
+      "value": "Welcome Dan"
+    }]
+  }, {
+    "id": "8064c8f0-508e-4e4c-8e68-10218d577208",
+    "name": "Logout",
+    "commands": [{
+      "id": "818d8283-6bdc-4ca8-ad28-29ed8c9922e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://esof423.cs.montana.edu/group1/the_clinic/webpages/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48f65440-fb18-419c-8d54-7abd1fe580d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1168x624",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0073852-4e3c-42de-88dc-22055016c1a7",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f4e066b-fa0c-4918-b234-cd3e29d3018b",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jeff"
+    }, {
+      "id": "e3c416b6-ff00-4b4b-8516-ab3fbd847397",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Jeff1"
+    }, {
+      "id": "14920530-4016-4fae-b705-6aa4f89c640e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.box:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a6057a4d-4185-4f2a-ae82-c8de9d08aedb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LOG OUT",
+      "targets": [
+        ["linkText=LOG OUT", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'LOG OUT')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'php/logout.php')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'LOG OUT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be2d4383-aa9f-4b57-b298-175294b9b38e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.box:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bed74732-1bc9-4a68-b4ec-cfd5841b2a2d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "879c34b6-6758-4b3c-83bb-fa3b5c40c5bb",
+    "name": "the_clinic",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a68511e4-1710-4521-abe6-e3b51b38db45", "bbd1e84f-6050-4f47-927b-44e22a23cc3c", "89a09413-c589-403f-b136-163476152429", "7ba4a399-7996-48c7-823f-7bf21d6f0114", "8064c8f0-508e-4e4c-8e68-10218d577208", "d3ec7659-2a32-48e8-9d85-db342e2caef8", "0cb0c0bd-c936-4ac0-87f0-89226fbd6326", "f85244b4-0db4-4aa2-bdc0-38c5336d697d"]
+  }],
+  "urls": ["https://esof423.cs.montana.edu/", "https://esof423.cs.montana.edu/group1/the_clinic/webpages/Login.php"],
+  "plugins": []
+}
