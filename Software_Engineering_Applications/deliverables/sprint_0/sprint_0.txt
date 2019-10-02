@@ -1,0 +1,5 @@
+1. Our plan for sprint 0 is to make a UML document to establish the site components, outline the cerner requirements for the webiste, and generate user stories to establish fundamental components that will be used on the website. In edition we will get a webpage published on esus.
+
+2. https://docs.google.com/spreadsheets/d/1Aaump7jZY-6sYrQJ1ymHjjUm0Cj0DIljyBpWzDxzxkM/edit?usp=sharing
+
+3. https://docs.google.com/spreadsheets/d/1Suo5P_T6h4kMYMZsR0mvsC0KFbB1KoLClWopbcKt6RM/edit?usp=sharing

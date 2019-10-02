@@ -1,0 +1,23 @@
+Rostik:
+ - Added user documentation to readme for devs and regualar users
+ - Got php 7.2 on server from scott
+ - Got travis setup for testing
+
+Josh:
+ - Will set up database 
+
+WE are doing:
+
+Rostik and Chris:
+ - Begin PHP first classes
+
+Josh and Phillip:
+ - Get database setup on server
+
+Danny and Phillip:
+ - Begin planning theme and look for website
+
+Sprint Goal:
+
+	Get a demo decision tree up and running to demo to client.
+

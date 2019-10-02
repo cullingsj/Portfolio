@@ -1,0 +1,151 @@
+__________________________________________________
+SELECT STATEMENTS FOR PATIENT INFORMATION
+
+--------------------------------------------------
+Selecting all fields and information for each patient
+--------------------------------------------------
+SELECT * FROM PatientInformation
+
+--------------------------------------------------
+Selecting the PatientID for all patients
+--------------------------------------------------
+SELECT PatientID FROM PatientInformation
+
+--------------------------------------------------
+Selecting the FirstName and Surname for all patients
+Optional: Specify which patient you want to select
+	WHERE PatientID == SpecifiedID
+--------------------------------------------------
+SELECT FirstName, Surname FROM PatientInformation
+
+--------------------------------------------------
+Selecting the patient diagnosis from PatientInformation
+Optional: Specify which patient you want to select
+	WHERE PatientID == SpecifiedID
+--------------------------------------------------
+SELECT Diagnosis FROM PatientInformation
+
+--------------------------------------------------
+Selecting the MedicationID from PatientInformation 
+--------------------------------------------------
+SELECT MedicationID FROM PatientInformation
+
+--------------------------------------------------
+Selecting the current dose for a patient from PatientInformation
+Optional: Specify which patient you want to select
+	WHERE PatientID == SpecifiedID
+--------------------------------------------------
+SELECT CurrentDose FROM PatientInformation
+
+--------------------------------------------------
+Selecting the last visit for a patient from PatientInformation
+Optional: Specify which patient you want to select
+	WHERE PatientID == SpecifiedID
+--------------------------------------------------
+SELECT LastVisit FROM PatientInformation
+
+--------------------------------------------------
+Selecting all patients with a specified last visit
+--------------------------------------------------
+SELECT PatientID, FirstName, Surname FROM PatientInformation
+WHERE LastVisit == VisitInput
+
+--------------------------------------------------
+Selecting all patients with a specified next visit
+--------------------------------------------------
+SELECT PatientID, FirstName, Surname FROM PatientInformation
+WHERE NextVisit == VisitInput
+
+--------------------------------------------------
+Selecting all patients with the same doctor
+--------------------------------------------------
+SELECT PatientID, FirstName, Surname FROM PatientInformation
+WHERE DoctorID == SpecifiedID
+
+__________________________________________________
+SELECT STATEMENTS FOR DOCTOR INFORMATION
+
+--------------------------------------------------
+Selecting all fields from DoctorInformation
+--------------------------------------------------
+SELECT * FROM DoctorInformation
+
+--------------------------------------------------
+Selecting all doctor id's from DoctorInformation
+--------------------------------------------------
+SELECT DoctorID FROM DoctorInformation
+
+--------------------------------------------------
+Selecting all the names of doctors from DoctorInformation
+Optional: Specify the doctor id, add:
+	WHERE DoctorID == specifiedID
+--------------------------------------------------
+SELECT FirstName, LastName FROM DoctorInformation
+
+--------------------------------------------------
+Selecting patient id from DoctorInformation for a specific doctor
+--------------------------------------------------
+SELECT patientID FROM DoctorInformation
+WHERE DoctorID == specifiedID
+
+--------------------------------------------------
+Selecting all user names from DoctorInformation
+Optional: Specify the doctor id, add:
+	WHERE DoctorID == specifiedID
+--------------------------------------------------
+SELECT DoctorID FROM DoctorInformation
+
+--------------------------------------------------
+Selecting all doctor id's from DoctorInformation
+--------------------------------------------------
+SELECT DoctorID FROM DoctorInformation
+
+__________________________________________________
+SELECT STATEMENTS FOR MEDICATIONINFORMATION
+
+--------------------------------------------------
+Selecting all fields from MedicationInformation
+--------------------------------------------------
+SELECT * FROM MedicationInformation
+
+--------------------------------------------------
+Selecting minimum dosage from MedicationInformation
+Optional: Specify the required medication, add:
+	WHERE MedicationID == specifiedID
+--------------------------------------------------
+SELECT MinimumDosage FROM MedicationInformation
+
+--------------------------------------------------
+Selecting maximum dosage from MedicationInformation
+Optional: Specify the required medication, add:
+	WHERE MedicationID == specifiedID
+--------------------------------------------------
+SELECT MaximumDosage FROM MedicationInformation
+
+--------------------------------------------------
+Selecting diagnosis from MedicationInformation
+Optional: Specify the required medication, add:
+	WHERE MedicationID == specifiedID
+--------------------------------------------------
+SELECT Diagnosis FROM MedicationInformation
+
+--------------------------------------------------
+Selecting ConflictingMedication from MedicationInformation
+Optional: Specify the required medication, add:
+	WHERE MedicationID == specifiedID
+--------------------------------------------------
+SELECT ConflictingMedication FROM MedicationInformation
+
+__________________________________________________
+SELECT STATEMENTS FOR CONFLICTING MEDICATION
+
+--------------------------------------------------
+Selecting all fields from 'CONFLICTING MEDICATION'
+--------------------------------------------------
+SELECT * FROM 'CONFLICTING MEDICATION'
+
+--------------------------------------------------
+Selecting the medication id that conflicts with the specified id
+--------------------------------------------------
+SELECT MedicationID FROM ConflictingID
+WHERE ConflictingID == specifiedID
