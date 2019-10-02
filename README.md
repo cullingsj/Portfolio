@@ -1,1 +1,3 @@
-Welcome to the online portfolio for Josh Cullings.
+Welcome to Josh's online portfolio.
+
+# Overview
