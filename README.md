@@ -1,1 +1,1 @@
-\textbf{Welcome to the online portfolio for Josh Cullings.}
+Welcome to the online portfolio for Josh Cullings.
