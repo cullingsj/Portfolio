@@ -1,0 +1,38 @@
+var num
+var a
+var i
+move 7 r0
+move r0 num
+move 2 r1
+move r1 i
+move 42 r2
+move r2 a
+move 5 r3
+move i r4
+cmpi r4 r3
+jge else1
+move a r6
+move num r7
+addi r7 r6
+move r6 r5
+move r5 num
+move 3 r8
+move i r9
+cmpi r9 r8
+jge out2
+move a r11
+move num r12
+addi r12 r11
+move r11 r10
+move r10 num
+label out2
+jmp out1
+label else1
+move a r14
+move num r15
+subi r14 r15
+move r15 r13
+move r13 num
+label out1
+sys writei num
+sys halt

@@ -1,0 +1,8 @@
+*.pyc
+
+.idea/
+bin/
+lib/
+*.interp
+*.tokens
+*.zip

@@ -1,0 +1,12 @@
+PROGRAM test
+BEGIN
+	
+	INT i;
+
+	FUNCTION VOID main()
+	BEGIN
+		READ (i);
+		WRITE (i);
+	END
+
+END
