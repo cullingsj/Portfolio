@@ -1,5 +1,7 @@
 # Overview
+![Porfile_Pic](https://github.com/cullingsj/Portfolio/blob/master/porfolio_pic1.png)
 <img src "https://github.com/cullingsj/Portfolio/blob/master/porfolio_pic1.png" width="48">
+
 My name is Josh Cullings and I have been a computer science major a Montana State University for 4 years. I first got into the field through a promostion at my high school called "Hour of Code". Ever since I have loved the challenge and satisfaction that comes with developing code. In my years at MSU, I have had many opportunities to learn aspects of the field ranging from robotics, circuitry, and databases to software engineering, computational biology, and machine learning. At the moment I am currently enrolled in Machine Learning, Networks, and Computational Biology courses. 
 
 # Programming Backgrounnds
