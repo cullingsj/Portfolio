@@ -22,6 +22,10 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
 - Compilers
   - Worked in a team of 3 to develop a compiler for Tiny Basic
 
+- Machine Learning
+  - Worked in a team of 4 to implement multi-layer feedforward neural networks, stacked auto-encoders, the radial basis function, and the Naive Bayes algorithm.
+  *See Machine Learning*
+
 ## Robotics
 - Robot Vision
   - Developed control software for university robots to complete specific tasks.
