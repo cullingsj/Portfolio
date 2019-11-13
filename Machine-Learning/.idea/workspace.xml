@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51a363ac-2ec3-4584-8e73-0687e0bdd5ae" name="Default Changelist" comment="Fixing feature 2">
+      <change beforePath="$PROJECT_DIR$/Data/Assignment3/outputs/forestfires-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Assignment3/outputs/forestfires-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Assignment3/outputs/forestfires.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Assignment3/outputs/forestfires.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Assignment3/outputs/machine-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Assignment3/outputs/machine-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Assignment3/outputs/machine.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Assignment3/outputs/machine.csv" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1SXBxUeVoswD9ZA8OYFarTjXhAJ" />
+  <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51a363ac-2ec3-4584-8e73-0687e0bdd5ae" name="Default Changelist" comment="" />
+      <created>1571700308260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571700308260</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Starting on driver class with data reading">
+      <created>1572452522611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572452522611</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Starting on driver class with data reading">
+      <created>1573183360720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573183360720</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Starting on driver class with data reading" />
+    <MESSAGE value="Fixing feature 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing feature 2" />
+  </component>
+</project>

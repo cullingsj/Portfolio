@@ -1,0 +1,363 @@
+Model Code
+BiasNode- Elliott
+Driver-Josh Cullings, Elliott, Marcus Twichel
+MultiLayerFF- Elliott, Marcus Twichel
+Network- Elliott
+Node- Elliott, Marcus Twichel
+Onehot-Josh Cullings,
+RBF- Elliott
+Tuning- Elliott
+ActivationFunction- Elliott
+GaussianFunction- Elliott
+LinearFunction- Elliott
+LogisticFunction-Josh Cullings,
+SoftMax- Elliott
+CategoricalCounter-Josh Cullings
+
+Pre-Processing-Josh Cullings, Elliott Pryor
+
+Writeup-Elliott Pryor, Marcus Twichel, Josh Cullings, Ryan Steenson
+
+Video: Elliott
+
+
+
+
+
+
+
+Git LOG:
+
+commit 11ec2efd9bbbfc1f4f90c7b679d068e2e32167ed
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Fri Nov 8 13:33:45 2019 -0700
+
+    Comments + Final cleanup
+
+commit e05888a3de83d9a84b77eb2990c8a5380fdf7935
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Fri Nov 8 12:27:45 2019 -0700
+
+    Contributions
+
+commit 64e80166453f6941d3182d9c1e67d6dd3a688b34
+Merge: 4507249 54b0676
+Author: Elliott P <pryorelliott@gmail.com>
+Date:   Fri Nov 8 12:25:41 2019 -0700
+
+    Merge pull request #29 from cullingsj/condense
+
+    Condense
+
+commit 54b0676587f319086b41490af1fa0218883ad7c6
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Fri Nov 8 12:25:03 2019 -0700
+
+    Final data
+
+commit 4393ed3e409f4f97904d8535c1d3761a14c5c285
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Fri Nov 8 10:41:30 2019 -0700
+
+    DATA!
+
+commit 89d7d1bc9b8b4f448378ce58ae1f12a9bd149cb1
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Fri Nov 8 08:05:12 2019 -0700
+
+    Overnight mostly finished
+
+commit 6528ba25da8fd3972573eb0a7e5b0a3d4a9b15e6
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Fri Nov 8 02:23:47 2019 -0700
+
+    Starting Run
+
+commit df57a6f4d7f8144b9101dc51b07526fb45afae45
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Fri Nov 8 02:11:03 2019 -0700
+
+    RUN ALL NIGHT
+
+commit f6c9e455ad798c6deacb02954b72403796e38715
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Fri Nov 8 01:27:58 2019 -0700
+
+    Minor Fixes
+
+commit 24f70de2ccb0f65c7f5f417f6cfedbee759f3d1d
+Merge: 0a1e752 7b389ee
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Fri Nov 8 01:02:31 2019 -0700
+
+    Merge and delete outputs for overnight run
+
+commit 0a1e75260cdd9b0620a983f7a6fdbacc79526a76
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Thu Nov 7 23:46:09 2019 -0700
+
+    Deleted old files
+
+commit 739142ed81d9b20ac191cfc384ec07d87da3e03b
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Thu Nov 7 23:45:56 2019 -0700
+
+    Deleted old files
+
+commit f054454a1c56ca1fd29717e85b3cf1a8c3e50d02
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Thu Nov 7 21:57:36 2019 -0700
+
+    output
+
+commit 7b389ee21c3b5c51e0e20c7e8552335aaab14d04
+Author: Josh <cullingsjosh@gmail.com>
+Date:   Thu Nov 7 21:24:16 2019 -0700
+
+    Fixing feature 2
+
+commit 302f95205c137a4e396e8d3932e77e62f078961c
+Merge: 28d9cdc e8bdeaf
+Author: Josh <cullingsjosh@gmail.com>
+Date:   Thu Nov 7 21:21:08 2019 -0700
+
+    Merge remote-tracking branch 'origin/Tuning+Output' into Tuning+Output
+
+commit e8bdeaf13309f2ca35c3ebfb13395cadf04d193e
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Thu Nov 7 21:20:43 2019 -0700
+
+    Pre-One Hot fix
+
+commit 450724903de1097fb512fe83c514b4cf06020606
+Author: cullingsj <cullingsjosh@gmail.com>
+Date:   Thu Nov 7 21:14:45 2019 -0700
+
+    Update Contributions.txt
+
+commit c599485d7153c8ad61aecd6517ddb29a0f713af9
+Author: cullingsj <cullingsjosh@gmail.com>
+Date:   Thu Nov 7 21:04:00 2019 -0700
+
+    Update Contributions.txt
+
+commit 28d9cdce1ef81cb216513d5ebc5019d71c1f332b
+Author: Josh <cullingsjosh@gmail.com>
+Date:   Thu Nov 7 20:22:40 2019 -0700
+
+    Starting on driver class with data reading
+
+commit 1f5f5d394b68eedbaf9728bde185a2c115a6dce4
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Thu Nov 7 20:19:46 2019 -0700
+
+    Run ME
+
+commit 9a7a94f85b0fa88cd41bcc6f23e862276e77b56f
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Thu Nov 7 19:36:04 2019 -0700
+
+    Data???
+
+commit 591df9a05011673da0ed0fb73291440409efa9b9
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Thu Nov 7 15:10:03 2019 -0700
+
+    Fixed K-Means
+
+commit 85150ba922528fad3d288471f00f9b2cddb99fed
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Thu Nov 7 14:15:55 2019 -0700
+
+    Softmax
+
+commit 9a27df0c797828c3672222e609e44b69a59ef48a
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Thu Nov 7 12:13:58 2019 -0700
+
+    Classification Data
+
+commit 6e9d020144871716637e90d80864f1290bc14f12
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Thu Nov 7 01:37:39 2019 -0700
+
+    Outputs
+
+commit aae116d26a303252fc5b4e0485815ef3ba684cff
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Thu Nov 7 00:13:41 2019 -0700
+
+    It just really likes class 1
+
+commit 1dd5db4459ab2510bf8ea2aaa075dab341c7a972
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Wed Nov 6 23:56:05 2019 -0700
+
+    It still doesn't really work
+
+commit 5d6dde53063bd9c6765783bb2ad739c8d2c6a4c0
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Wed Nov 6 23:06:45 2019 -0700
+
+    I am very confused
+
+commit f7a71bd5b728563ad36485fb5dc4ba51e1ea4bd8
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Wed Nov 6 20:26:05 2019 -0700
+
+    Initial changes
+
+commit 58b4f3abdb921954bcbe76c885f02b46f16f4ecc
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Wed Nov 6 17:44:33 2019 -0700
+
+    Train until convergence
+
+commit 244d6e673ca8afbb25f05bf05ccfa6acf45d1f08
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Wed Nov 6 10:57:33 2019 -0700
+
+    RBF Working
+
+commit f0fe2dc1ba2d692c449d40cb000ccf2f50122f5d
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Wed Nov 6 00:31:05 2019 -0700
+
+    Tuning Working, RBF very close
+
+commit 48de470b2d79b7d0c44b843f86c15220cb374d8a
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Tue Nov 5 23:36:55 2019 -0700
+
+    Before Delete MultiLayerFF
+
+commit db5fd631f4aecb77ef47cbb79f7dd02a0c3c3f70
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Tue Nov 5 19:56:35 2019 -0700
+
+    Activation Function Rework
+
+commit beb448d4bf7ebf2c4e34cdbf54c0be002ef145e7
+Merge: 28d7239 738fc05
+Author: Elliott P <pryorelliott@gmail.com>
+Date:   Tue Nov 5 00:02:57 2019 -0700
+
+    Merge pull request #27 from cullingsj/issue10
+
+    Project 3
+
+commit 738fc0570e8a6c3118e25febb70a18f906053dd9
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Mon Nov 4 23:54:55 2019 -0700
+
+    YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEET
+
+commit 3454ef9d222e52025d5ca923ea79537494946769
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Mon Nov 4 23:06:14 2019 -0700
+
+    Grow Array Changes
+
+commit 1197997994e7b37b90ba51b128184fd4d0452612
+Author: Elliott Pryor <pryorelliott@gmail.com>
+Date:   Mon Nov 4 20:10:16 2019 -0700
+
+    Before deleting feature
+
+commit c201c08c23079e1b4084342fc59705f355cf8e30
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Mon Nov 4 17:22:38 2019 -0700
+
+    Project 2 Fix for Proj3
+
+commit a70373505b97b360e1f1cb734ecfce63c5e67bfc
+Merge: ea357d3 72c89a9
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Mon Nov 4 16:40:07 2019 -0700
+
+    Merge Conflicts
+
+commit ea357d3112bc2d28800a81e122552c5d6645c59e
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Sun Nov 3 15:47:33 2019 -0700
+
+    Tuning FFN
+
+commit 72c89a9455c9ef0ca2f89ad51c601a967ad371ff
+Author: Marcus Twichel <marc.twichy@gmail.com>
+Date:   Sun Nov 3 15:42:16 2019 -0700
+
+    First backprop commit
+
+commit 44d34ca17435198dcd80323847f9d9c76f6c769f
+Merge: 610ddd3 0559065
+Author: cullingsj <cullingsjosh@gmail.com>
+Date:   Wed Oct 30 10:13:37 2019 -0600
+
+    Merge pull request #26 from cullingsj/Onehot
+
+    Onehot merged into master
+
+commit 055906513fbf753154224e0a11a4a40f76a8e96c
+Merge: 045fe2e 610ddd3
+Author: cullingsj <cullingsjosh@gmail.com>
+Date:   Tue Oct 29 18:21:49 2019 -0600
+
+    Merge branch 'master' into Onehot
+
+commit 045fe2ed2b17be36018994c36063f028e2165e54
+Author: Josh <cullingsjosh@gmail.com>
+Date:   Tue Oct 29 08:05:13 2019 -0600
+
+    Removed neuron notes from data file headers
+
+commit 15f86767dccc1783a6ea5cc8a50ae917051e5e27
+Author: Josh <cullingsjosh@gmail.com>
+Date:   Mon Oct 28 14:03:38 2019 -0600
+
+    Fixed my stupid mistakes
+
+commit c8d05dec0811e6bce8f1ad3843d2fefa35705453
+Author: Josh <cullingsjosh@gmail.com>
+Date:   Sun Oct 27 20:50:13 2019 -0600
+
+    One hot should be working now
+
+commit 610ddd3390e2bf0bcdc79bb640adaaaf768c1bfc
+Author: Josh <cullingsjosh@gmail.com>
+Date:   Thu Oct 24 10:08:01 2019 -0600
+
+    Added script to find number of neurons required for One-Hot
+
+commit 04913bc90c1a11fb96d7da5526a3911a2577e15b
+Merge: e584188 1c4d721
+Author: Marcus Twichel <marc.twichy@gmail.com>
+Date:   Mon Oct 21 18:29:31 2019 -0600
+
+    Merge pull request #19 from cullingsj/proj3Skeleton
+
+    Proj3 skeleton
+
+commit 1c4d721552d84382ba36110e580311dd78eb2c16
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Mon Oct 21 11:52:00 2019 -0600
+
+    Network outputs
+
+commit b8d7bc09ac14dd870947f149810856aebc26338e
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Mon Oct 21 11:44:47 2019 -0600
+
+    Project 3 Skeleton
+
+commit e584188fc86f1edce30950e1684940bf8d7ff290
+Author: Josh <cullingsjosh@gmail.com>
+Date:   Fri Oct 18 09:22:46 2019 -0600
+
+    Added sections for project3
+
+commit 118760fb40482cf3d5fff6b031f283f7e4ae8a9d
+Author: ElliottP-13 <pryorelliott@gmail.com>
+Date:   Fri Oct 11 00:48:39 2019 -0600
+
+
