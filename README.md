@@ -8,6 +8,7 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
 ## Computational Biology
 - Computational Biology
   - Studied and implemented algorithms for finding gene sequences in DNA.
+  *See Computational-Biology
 
 ## Databases
 *Primarily used:* SQLite
@@ -43,7 +44,8 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
   
 - Compilers
   - Worked in a team of 3 to develop a compiler for Tiny Basic
+  *See compilers*
 
 - Machine Learning
   - Worked in a team of 4, in a scrum environment, to implement multi-layer feedforward neural networks, stacked auto-encoders, the radial basis function, and the Naive Bayes algorithm.
-  *See Machine Learning*
+  *See Machine-Learning*
