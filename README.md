@@ -7,8 +7,7 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
 
 ## Computational Biology
 - Computational Biology
-  - Studied and implemented algorithms for finding gene sequences in DNA.
-  
+  - Studied and implemented algorithms for finding gene sequences in DNA. 
   *See Computational-Biology*
 
 ## Databases
@@ -34,7 +33,8 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
 
 ## Robotics
 - Robot Vision
-  - Developed control software for university robots to complete specific tasks. *See robotVision*
+  - Developed control software for university robots to complete specific tasks. 
+  *See robotVision*
 
 ## Software Development:
 - Multi-Disciplinary Engineering Design
@@ -44,7 +44,7 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
   - Paired with clients to develop apps in a sprint based format for real world applications. In our case we developed an app to track the progression of mental health patients.
   
 - Compilers
-  - Worked in a team of 3 to develop a compiler for Tiny Basic
+  - Worked in a team of 3 to develop a compiler for Tiny Basic. 
   *See compilers*
 
 - Machine Learning
