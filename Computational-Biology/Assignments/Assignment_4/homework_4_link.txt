@@ -1,0 +1,7 @@
+https://github.com/cullingsj/Computational-Biology.git
+
+The file can be found in Assignments/Assignment_4/
+as center_star.py
+
+Group Members: Josh Cullings
+	       Daniel Laden
