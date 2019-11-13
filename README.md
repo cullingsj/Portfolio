@@ -8,6 +8,7 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
 ## Computational Biology
 - Computational Biology
   - Studied and implemented algorithms for finding gene sequences in DNA.
+  
   *See Computational-Biology*
 
 ## Databases
