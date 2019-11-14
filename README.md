@@ -29,7 +29,8 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
   - Linux Command Line to manage netwrok settings, permissions, file structure, updates, etc.
   
 - Networks
-  - Structure and processes of different network types
+  - Structure and processes of different network types 
+  *See Networks*
 
 ## Robotics
 - Robot Vision
