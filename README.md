@@ -5,12 +5,36 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
 
 # Programming Backgrounnds
 
+## Computational Biology
+- Computational Biology
+  - Studied and implemented algorithms for finding gene sequences in DNA. 
+  *See Computational-Biology*
+
+## Databases
+*Primarily used:* SQLite
+- Database Systems
+  - Used SQL to built database frameworks
+  
+- Software Engineering Applications
+  - Used SQL Workbench to built database for storing patient information
+  - Used PHP to implement database and fight SQL injection attacks
+
+## Electrical Engineering
+- Intro to Logical Circuits
+  - Built electrical circuits from truth tables and electrical diagrams
+  - Implementation of VHDL code to run logic sets
+
 ## Network Setup/Management:
 - Systems Administration
   - Linux Command Line to manage netwrok settings, permissions, file structure, updates, etc.
   
 - Networks
   - Structure and processes of different network types
+
+## Robotics
+- Robot Vision
+  - Developed control software for university robots to complete specific tasks. 
+  *See robotVision*
 
 ## Software Development:
 - Multi-Disciplinary Engineering Design
@@ -20,26 +44,9 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
   - Paired with clients to develop apps in a sprint based format for real world applications. In our case we developed an app to track the progression of mental health patients.
   
 - Compilers
-  - Worked in a team of 3 to develop a compiler for Tiny Basic
+  - Worked in a team of 3 to develop a compiler for Tiny Basic. 
+  *See compilers*
 
 - Machine Learning
-  - Worked in a team of 4 to implement multi-layer feedforward neural networks, stacked auto-encoders, the radial basis function, and the Naive Bayes algorithm.
-  *See Machine Learning*
-
-## Robotics
-- Robot Vision
-  - Developed control software for university robots to complete specific tasks.
-
-## Electrical Engineering
-- Intro to Logical Circuits
-  - Built electrical circuits from truth tables and electrical diagrams
-  - Implementation of VHDL code to run logic sets
-  
-## Databases
-*Primarily used:* SQLite
-- Database Systems
-  - Used SQL to built database frameworks
-  
-- Software Engineering Applications
-  - Used SQL Workbench to built database for storing patient information
-  - Used PHP to implement database and fight SQL injection attacks
+  - Worked in a team of 4, in a scrum environment, to implement multi-layer feedforward neural networks, stacked auto-encoders, the radial basis function, and the Naive Bayes algorithm.
+  *See Machine-Learning*
