@@ -43,6 +43,7 @@ My name is Josh Cullings and I have been a computer science major a Montana Stat
   
 - Software Engineering Applications
   - Paired with clients to develop apps in a sprint based format for real world applications. In our case we developed an app to track the progression of mental health patients.
+  - Worked in scrum environment, using smartsheet
   
 - Compilers
   - Worked in a team of 3 to develop a compiler for Tiny Basic. 
